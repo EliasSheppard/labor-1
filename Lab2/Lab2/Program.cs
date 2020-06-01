@@ -59,12 +59,7 @@ namespace Lab2
                 Console.Write("Введите c: ");
                 c = Double.Parse(Console.ReadLine());
                 Console.Write("Введите d: ");
-                d = Double.Parse(Console.ReadLine());
-
-                y = c * Math.Pow(Math.Pow(x, 2) + (d * Math.Pow(i, 1.2)), (double)(1m / 9m));
-            }
-            Console.WriteLine("y = " + y.ToString());
-        }
+        
         
         static void Work4()
         {
@@ -77,9 +72,6 @@ namespace Lab2
             }
 
             for (int x = i; x <= i + 5; x++)
-            {
-                b *= Math.Cos(Math.Pow(x, 2) + 1) - Math.Abs(Math.Sin(2 * x) - 5.76);
-            }
 
             z = Math.Pow(Math.Abs(a * b), (double)(1m / 4m));
             Console.WriteLine("z = " + z.ToString());
